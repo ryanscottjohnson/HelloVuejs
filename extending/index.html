@@ -1,0 +1,8 @@
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+<div id="app">
+  <!-- directive v-on = event listener for input event-->
+  <!-- value "changeTitle" = method to update title-->
+  <input type="text" v-on:input="changeTitle">
+  <p>{{ title }}</p>
+</div>
